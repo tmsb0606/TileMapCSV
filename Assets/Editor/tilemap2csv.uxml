@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Editor/tilemap2csv.uss?fileID=7433441132597879392&amp;guid=f4e07461c966c154ca22470965c768b8&amp;type=3#tilemap2csv" />
+    <uie:ObjectField label="TileMap" name="TileMap" type="UnityEngine.GameObject, UnityEngine.CoreModule" />
+    <ui:Vector2Field label="縦横マス" name="ColumnRow" />
+    <ui:Vector2Field label="OffSet(左下に合うように)" name="OffSet" />
+    <ui:Button text="書き出し" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StartButton" />
+</ui:UXML>

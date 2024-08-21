@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/csv2tilemap.uss?fileID=7433441132597879392&amp;guid=bf8e95920070fec44902d1265a437e5b&amp;type=3#csv2tilemap" />
+    <uie:ObjectField label="TileMap(親)" name="TileMap" />
+    <uie:ObjectField label="CSV" name="CSV" type="UnityEngine.TextAsset, UnityEngine.CoreModule" />
+    <ui:Button text="読み込み" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StartButton" />
+</ui:UXML>
